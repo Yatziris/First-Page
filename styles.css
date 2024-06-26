@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+body{
+    display: block;
+    background-image: url(./pexels-moose-photos-170195-1037993.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 15px;
+}
+
+h1{
+    font-family: "Shadow Into Light", cursive;
+    font-weight: bold;
+    color: #e75151;
+    text-align: center;
+    display: block;
+    font-size: 2em;
+    margin: 10px 10px;
+}
+
+h2{
+    color: #e75151;
+    font-family: "Shadow Into Light", cursive;
+    display: block;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 30px 30px;
+}
+
+table{
+    display: table;
+    color: black;
+    font-size: 14px;
+    table-layout: fixed;
+    border-collapse: collapse;
+    margin: 0 auto;
+    border: 1px solid lightcoral;
+    box-shadow: 0 0 25px grey;
+    backdrop-filter: blur(5px);
+}
+
+thead{
+    background: lightblue;
+}
+
+th{
+    padding: 20px 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+td{
+    padding: 15px;
+    border-bottom: 1px solid lightcoral;
+}
+
+tbody tr :hover{
+    background: lightblue;
+}
